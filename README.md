@@ -5,8 +5,11 @@ A Dockerfile to build Docker image to run [lrun](https://github.com/quark-zju/lr
 Docker
 
 ## 构建
-将Dockerfile复制到一个单独的文件夹，然后在该文件夹下运行
-`docker build -t lrun:v1 .`
+```
+git clone https://github.com/zentorwie/dockerfile-for-lrun.git
+cd dockerfile-for-lrun
+docker build -t lrun:v1 .
+```
 
 ## 使用
 
