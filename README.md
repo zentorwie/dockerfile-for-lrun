@@ -17,6 +17,6 @@ docker run -t --privileged --rm lrun:v1 su - judge -c "{想要在容器里运行
 比如:
 
 ```
-docker run -t --privileged --rm a304 su - judge -c "lrun --max-cpu-time 1.5 bash -c ':(){ :;};:' 3>&1"
+docker run -t --privileged --rm lrun:v1 su - judge -c "lrun --max-cpu-time 1.5 bash -c ':(){ :;};:' 3>&1"
 ```
 
